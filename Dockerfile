@@ -14,4 +14,4 @@ RUN [ "$(uname -m)" = "aarch64" ] && arch=arm64 || arch=x64 \
 RUN apt-get update && apt-get install -y --no-install-recommends \
   libicu-dev sqlite
 
-ENTRYPOINT ["/usr/local/bin/kryolite", "wallet", "list" ]
+ENTRYPOINT ["/usr/local/bin/kryolite"]
