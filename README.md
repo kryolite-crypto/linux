@@ -1,3 +1,3 @@
 # linux
 
-`docker build -t kryolite && docker run kryolite`
+`docker build -t kryolite . && docker run kryolite`
